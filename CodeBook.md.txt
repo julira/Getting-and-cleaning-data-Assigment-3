@@ -1,0 +1,314 @@
+Codebook
+
+Data: Human Activity Recognition Using Smartphones Dataset
+Version 1.0
+==================================================================
+Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
+Smartlab - Non Linear Complex Systems Laboratory
+DITEN - Università degli Studi di Genova.
+Via Opera Pia 11A, I-16145, Genoa, Italy.
+activityrecognition@smartlab.ws
+www.smartlab.ws
+==================================================================
+
+The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
+
+The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. 
+
+For each record it is provided:
+======================================
+
+- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
+- Triaxial Angular velocity from the gyroscope. 
+- A 561-feature vector with time and frequency domain variables. 
+- Its activity label. 
+- An identifier of the subject who carried out the experiment.
+======================================
+Variables
+
+ID
+
+from 1 to 30;  Unique identifier of a person doing the test
+
+
+Activities
+
+Character variable; 
+Activities performed in the test:
+1. WALKING
+2. WALKING_UPSTAIRS
+3. WALKING_DOWNSTAIRS
+4. SITTING
+5. STANDING
+6. LAYING
+
+tBodyAccmeanX
+
+ from -1 to 1; average signals'time from accelerometer in X direction
+
+tBodyAccmeanY
+
+from -1 to 1; average signals'time from accelerometer in Y direction
+
+tBodyAccmeanZ
+
+ from -1 to 1; average signals'time from accelerometer in Z direction
+
+tBodyAccstdX
+
+from -1 to 1;  standard deviation of signals'time from accelerometer in X direction
+
+tBodyAccstdY
+
+from -1 to 1;  standard deviation signals'time from accelerometer in Y direction
+
+tBodyAccstdZ
+
+ from -1 to 1;  standard deviation of signals'time from accelerometer in Z direction
+
+tGravityAccmeanX
+
+from -1 to 1;  average signals'time of gravity acceleration in X direction
+
+tGravityAccmeanY
+
+from -1 to 1;  average signals'time of gravity acceleration in Y direction
+
+tGravityAccmeanZ 
+
+from -1 to 1; average signals'time of gravity acceleration in Z direction
+
+tGravityAccstdX
+
+ from -1 to 1;  standard deviation of signals'time of gravity acceleration in X direction
+  
+tGravityAccstdY   
+
+from -1 to 1;  standard deviation of signals'time of gravity acceleration in Y direction
+
+ tGravityAccstdZ
+
+  from -1 to 1; standard deviation of signals'time of gravity acceleration in Z direction
+
+ tBodyAccJerkmeanX
+
+from -1 to 1;  average time of Jerk signals in X direction (from accelerometer)
+
+tBodyAccJerkmeanY
+
+ from -1 to 1; average time of Jerk signals in Y direction (from accelerometer)
+
+tBodyAccJerkmeanZ
+
+ from -1 to 1;  average time of Jerk signals in Z direction (from accelerometer)
+
+tBodyAccJerkstdX
+
+ from -1 to 1; standard deviation of Jerk signals' time in X direction (from accelerometer)
+
+tBodyAccJerkstdY
+
+ from -1 to 1; standard deviation of Jerk signals' time in Y direction (from accelerometer)
+
+tBodyAccJerkstdZ
+
+ from -1 to 1; standard deviation of Jerk signals' time in Z direction (from accelerometer)
+    
+tBodyGyromeanX
+
+from  -1 to 1; average signals' time from gyroscope in X direction
+
+tBodyGyromeanY
+
+ from -1 to 1;  average signals' time from gyroscope in Y direction
+
+tBodyGyromeanZ
+
+from -1 to 1;  average signals' time from gyroscope in Z direction
+
+tBodyGyrostdX
+
+from -1 to 1;  standard deviation of signals' time from gyroscope in X direction
+
+tBodyGyrostdY
+
+from -1 to 1;  standard deviation of signals' time from gyroscope in Y direction
+          
+tBodyGyrostdZ
+
+ from -1 to 1;  standard deviation of signals' time from gyroscope in Z direction
+
+tBodyGyroJerkmeanX
+
+ from -1 to 1; average time of Jerk signals in X direction (from gyroscope)
+
+tBodyGyroJerkmeanY
+
+ from -1 to 1;  average time of Jerk signals in Y direction (from gyroscope)
+
+tBodyGyroJerkmeanZ
+
+from -1 to 1;  average time of Jerk signals in Z direction (from gyroscope)
+
+tBodyGyroJerkstdX
+
+from -1 to 1;  standard deviation of Jerk signals' time in X direction (from gyroscope)
+     
+tBodyGyroJerkstdY
+
+ from -1 to 1; standard deviation of Jerk signals' time in Y direction (from gyroscope)
+
+tBodyGyroJerkstdZ
+
+from -1 to 1;  standard deviation of Jerk signals' time in Z direction (from gyroscope)
+
+ tBodyAccMagmean
+
+ from -1 to 1; average magnitude of signals from accelerometer
+
+ tBodyAccMagstd
+
+from -1 to 1;  standard deviation of magnitude of signals from accelerometer
+
+ tGravityAccMagmean
+
+from -1 to 1; average magnitude of gravity acceleration signals
+     
+tGravityAccMagstd
+
+from -1 to 1;  standard deviation of magnitute of gravity acceleration signals 
+
+tBodyAccJerkMagmean
+ 
+from -1 to 1; average magnitude of Jerk signals (from accelerometer)
+
+tBodyAccJerkMagstd
+
+from -1 to 1; standard deviation of magnitute of Jerk signals (from accelerometer)
+
+tBodyGyroMagmean
+
+from -1 to 1; average magnitude of Jerk signals (from gyroscope)
+
+tBodyGyroMagstd
+
+from -1 to 1; standard deviation of magnitude of Jerk signals (from gyroscope)
+       
+tBodyGyroJerkMagmean
+
+ from -1 to 1; average magnitude of Jerk signals (from gyroscope)
+
+tBodyGyroJerkMagstd
+
+from -1 to 1; standard deviation of magnitude of Jerk signals (from gyroscope)
+
+fBodyAccmeanX
+
+from -1 to 1; average signals' frequency from accelerometer in X direction
+
+fBodyAccmeanY
+
+from -1 to 1; average signals' frequency from accelerometer in Y direction
+
+fBodyAccmeanZ
+
+from -1 to 1; average signals' frequency from accelerometer in Z direction    
+   
+fBodyAccstdX
+
+from -1 to 1; standard deviation of signals' frequency from accelerometer in X direction
+
+fBodyAccstdY
+
+from -1 to 1; standard deviation of signals' frequency from accelerometer in Y direction
+
+fBodyAccstdZ
+
+from -1 to 1;  standard deviation of signals' frequency from accelerometer in Z direction
+
+fBodyAccJerkmeanX
+
+from -1 to 1; average frequence of Jerk signals in X direction (from accelerometer)
+
+
+fBodyAccJerkmeanY
+
+ from -1 to 1;average frequence of Jerk signals in Y direction (from accelerometer) 
+  
+fBodyAccJerkmeanZ
+
+ from -1 to 1;average frequence of Jerk signals in Z direction (from accelerometer)
+
+fBodyAccJerkstdX
+
+ from -1 to 1;  standard deviation of frequence of Jerk signals in X direction
+
+fBodyAccJerkstdY
+
+ from -1 to 1;  standard deviation of frequence of Jerk signals in Y direction
+
+fBodyAccJerkstdZ
+
+ from -1 to 1; standard deviation of frequence of Jerk signals in Z direction
+
+fBodyGyromeanX
+
+ from -1 to 1; average signals'frequence from gyroscope in X direction
+
+fBodyGyromeanY
+
+from -1 to 1; average signals'frequence from gyroscope in Y direction
+
+fBodyGyromeanZ
+
+from -1 to 1; average signals'frequence from gyroscope in Z direction   
+
+fBodyGyrostdX
+
+  from -1 to 1; standard deviation of signals'frequence from gyroscope in X direction
+
+fBodyGyrostdY
+
+  from -1 to 1; standard deviation of signals'frequence from gyroscope in Y direction
+
+fBodyGyrostdZ
+
+  from -1 to 1;  standard deviation of signals'frequence from gyroscope in Z direction 
+
+fBodyAccMagmean
+
+from -1 to 1; average frequence signals'magnitude from accelerator 
+
+fBodyAccMagstd
+
+from -1 to 1; standard deviation of frequence signals'magnitude from accelerator 
+
+ fBodyBodyAccJerkMagmean
+
+from -1 to 1;average frequence of Jerk signals'magnitude from accelerator 
+
+ fBodyBodyAccJerkMagstd
+
+from -1 to 1; standard deviation of frequence of Jerk signals'magnitude from accelerator 
+
+fBodyBodyGyroMagmean
+
+from -1 to 1;average frequence signals'magnitude from gyroscope
+    
+fBodyBodyGyroMagstd
+
+from -1 to 1;standard deviation of frequence signals'magnitude from gyroscope
+
+fBodyBodyGyroJerkMagmean
+
+from -1 to 1;average frequence Jerk signals'magnitude from gyroscope
+
+fBodyBodyGyroJerkMagstd
+ 
+from -1 to 1;standard deviation of frequence of Jerk signals'magnitude  from gyroscope
+
+
+
+
+
+
